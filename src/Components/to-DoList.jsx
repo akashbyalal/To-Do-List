@@ -5,12 +5,17 @@ function ToDoList(){
   const [newTask,setNewTask] = useState('');
   
   function inputTask(event){
-    setNewTask(event.target.value)
+    const Task = event.target.value;
+    
+    
   }
   function addNewTask(){
-    
-    setTask(c=>([...c, newTask]))
+    if(newTask !== ""){
+      setTask(c=>([...c, newTask]))
     setNewTask('')
+    }
+    
+    
   }
   function DeleteTast(index){
     setTask(c=>c.filter((_,i)=>i!==index));
