@@ -6,7 +6,7 @@ This project helped me practice state management, list rendering, and basic UI h
 ### Features
 - Add and delete tasks
 - Reorder tasks by priority
-- Clean and minimal UI
+- Clean and minimal UI.
 
 ### Tech Stack
 - React
