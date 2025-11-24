@@ -1,21 +1,14 @@
+# To-Do List
 
-# React + Vite
+A simple to-do app built with **React**. Add tasks, delete tasks, and reorder them by priority.  
+This project helped me practice state management, list rendering, and basic UI handling.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Features
+- Add and delete tasks
+- Reorder tasks by priority
+- Clean and minimal UI
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-=======
-# To-Do-List
-A simple React to-do app where you can add, delete, and reorder tasks by priority. Built as my first React project to practice state updates, list handling, and basic UI interactions.
->>>>>>> 0132fd93c75b59fb132e9714ed8f36995daf6b21
+## Tech Stack
+- React
+- Vite
+- CSS
